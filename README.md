@@ -14,12 +14,12 @@ Usage
 -----
 Pretty obvious with the mouse but there are also keyboard shortcuts for those who like to get things done quickly. These are modelled on Google Reader (RIP) and are:
 
-j: next item
-k: previous item
-m: toggle read/unread status
-v: view item (i.e. open the link to the actual web page)
-s: star an item
-r: refresh view
+* j: next item
+* k: previous item
+* m: toggle read/unread status
+* v: view item (i.e. open the link to the actual web page)
+* s: star an item
+* r: refresh view
 
 TODO
 ----
