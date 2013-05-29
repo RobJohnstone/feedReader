@@ -5,10 +5,10 @@ A minimalistic RSS feed reader. No social features. No fancy design. Just the fe
 
 Features
 --------
-Allows you to view the items in the rss feeds you subscribe to (obviously!)
-Virtually no "chrome", logos, widgets or other distracting details, just the feeds
-Star items you like so you can easily retrieve them later
-Import data from Google Reader
+* Allows you to view the items in the rss feeds you subscribe to (obviously!)
+* Virtually no "chrome", logos, widgets or other distracting details, just the feeds
+* Star items you like so you can easily retrieve them later
+* Import data from Google Reader
 
 Usage
 -----
