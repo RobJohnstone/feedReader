@@ -42,4 +42,3 @@ TODO
 Known Bugs
 ----------
 * Importing Google Reader files that have a space in their filename will fail (sounds trivial to fix but this one has me stumped - time to hit stack overflow!). The workaround is to rename the file without spaces.
-* Times are sometimes (but not normally) incorrectly shortened if they end in a "0" (this one probably is trivial but I havn't got round to it yet even though fixing it would probably have taken less time than typing this!) 
