@@ -313,7 +313,7 @@ items.renderDate = function(date) {
 	var now = new Date(),
 		diff = now - date;
 	if (diff < 24 * 60 * 60 * 1000) {
-		return date.getHours()+':'+(date.getMinutes() === 0 ? '00' : date.getMinutes());
+		return date.getHours()+':'+(date.getMinutes().length < 2 ? date.getMinutes()+'0' : date.getMinutes());
 	}
 	else {
 		return date.getDate()+'/'+(date.getMonth()+1)+'/'+date.getFullYear();
