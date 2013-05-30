@@ -13,9 +13,9 @@ Features
 Installation
 ------------
 * Upload the files to your server (or configure your own computer to act as a web server by installing LAMP, WAMP, XAMPP, or equivalent)
-* Create the database on your server. (A script to automate this process will be added shortly)
 * Create a "sensitive.php" file on the server which defines database access settings such as password, etc. Look at sensitive-example.php for reference
-* Setup a cron job to automate the checking feeds for updates. I use the rule: `*/15 *	*	*	* wget -q http://<my domain>/index.php?command=updateFeeds`, for example
+* Create the database on your server by visiting createDatabase.php in your browser (or doing it manually - look in createDatabase.php for the schema)
+* Setup a cron job to automate checking feeds for updates. I use the rule: `*/15 *	*	*	* wget -q http://<my domain>/index.php?command=updateFeeds`, for example
 * Import your data from Google Reader (load the page and click "import") or add subscriptions manually (click "Add subscription")
 
 Usage
@@ -31,7 +31,6 @@ Pretty obvious with the mouse but there are also keyboard shortcuts for those wh
 
 TODO
 ----
-* Add script to automate database generation
 * Make more friendly to those who don't like keyboard shortcuts (e.g. marking a read item as unread is essentially impossible if you do not know the keyboard shortcut)
 * Improving mobile experience (Not bad currently but the top menu bar is ridiculously small and swipe actions would be be a big improvement)
 * Create versions that are compatible with Amazon Web Services and Google App Engine (the current version assumes a MySQL database for example)

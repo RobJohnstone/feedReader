@@ -405,7 +405,6 @@ ui.enableShortcuts = function() {
 
 ui.shortcut = function(key) {
 	if (ui.shortcutsEnabled) {
-		console.log('key: '+key+' pressed');
 		switch (key) {
 			case 74: // j
 				ui.nextItem();
@@ -494,11 +493,9 @@ ui.scrollToItem = function(index) {
 		windowHeight = $(window).height(),
 		offsetTop = offset.top;
 	if (offsetTop < scrollTop) {
-		console.log('offset.top is less than scroll');
 		$(document).scrollTop(offsetTop);
 	}
 	else if ((offsetTop + elemHeight) > (scrollTop + windowHeight)) {
-		console.log('element is off the bottom of the screen');
 		$(document).scrollTop(offsetTop);
 	}
 };
