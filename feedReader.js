@@ -71,6 +71,13 @@ $(function() {
 			ui.shortcut(e.which);
 		}
 	});
+	$(document).on({
+		click: function(e) {
+			var index = $(this).parents('.item').attr('id').substr(5);
+			items.starredToggle(index);
+			e.stopPropagation();
+		}
+	}, '.star');
 });
 
 var reader = {};
