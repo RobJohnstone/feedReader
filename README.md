@@ -31,6 +31,7 @@ Pretty obvious with the mouse but there are also keyboard shortcuts for those wh
 
 TODO
 ----
+* Add script to automate database generation
 * Make more friendly to those who don't like keyboard shortcuts (e.g. marking a read item as unread is essentially impossible if you do not know the keyboard shortcut)
 * Improving mobile experience (Not bad currently but the top menu bar is ridiculously small and swipe actions would be be a big improvement)
 * Create versions that are compatible with Amazon Web Services and Google App Engine (the current version assumes a MySQL database for example)
